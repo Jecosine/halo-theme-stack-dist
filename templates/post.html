@@ -5,6 +5,8 @@
     <div class="container main-container flex on-phone--column extended">
         <!--      Left Sidebar-->
         <th:block th:replace="~{modules/common/left-sidebar :: left-sidebar}"></th:block>
+        <!-- <div class="sidebar right-sidebar" style="order: -999;"> -->
+        <!-- </div> -->
         <th:block th:if="${! #lists.isEmpty(theme.config.post.asideData)}">
             <!--      Right Sidebar-->
             <th:block th:replace="~{modules/common/right-sidebar :: right-sidebar(toc='true')}"></th:block>
