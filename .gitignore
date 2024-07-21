@@ -1,4 +1,9 @@
-node_modules/
-.gradle/
-.DS_Store
-templates/assets/dist/
+# node_modules/
+# .gradle/
+# .DS_Store
+# templates/assets/dist/
+
+**/**
+!templates/
+settings.yaml
+theme.yaml

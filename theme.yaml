@@ -1,7 +1,7 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-stacked
+  name: theme-Stack2
 spec:
   customTemplates:
     page:
