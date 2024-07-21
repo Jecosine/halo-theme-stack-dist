@@ -1,0 +1,4 @@
+node_modules/
+.gradle/
+.DS_Store
+templates/assets/dist/
